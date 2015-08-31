@@ -29,7 +29,7 @@ baseurl: ""
 #disqus: disqus-shortname
 
 # social icons and sharing options
-#social:
+social:
 #  - icon:	twitter
 #    url:	https://twitter.com/dirkfabisch
 #    desc: Follow me on twitter
