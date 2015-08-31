@@ -1,14 +1,16 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-gems: - jemoji
+gems:
+  - jemoji
+
 # Site settings
 title: "Mediator"
 description: > # this means to ignore newlines until "email:"
    A Jekyll theme - Medium inspired
 
 email: elliott.ray@qq.com
-#blog logo
+# blog logo
 logo: "/assets/images/logo.jpg"
 # blog cover
 cover: "/assets/images/cover.jpg"
