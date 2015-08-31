@@ -1,8 +1,7 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-gems:
-  - jemoji
+gems: - jemoji
 # Site settings
 title: "Mediator"
 description: > # this means to ignore newlines until "email:"
@@ -18,7 +17,7 @@ name: 'Elliott Ray'
 author: 'Elliott Ray'
 author_image: "/assets/images/author.jpg"
 
-paginate:	5
+paginate: 5
 
 url: "http://www.elloray.com" # the base hostname & protocol for your site
 baseurl: ""
