@@ -1,70 +1,60 @@
-title:            Lights of Code
-description:      Describe your website here.
-disqus_shortname: hpstrtheme
-reading_time:     true
-words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:
-
-# Owner/author information
-owner:
-  name:           Ray
-  avatar:         avatar.jpg
-  bio:            "1/2 Tester ，1/2 Coder <br> 1/2 Explorer <br> 1 Dreamer."
-  email:          elliott.ray@qq.com
-  # Social networking links used in footer. Update and remove as you like.
-  #twitter:        
-  #facebook:       
-  github:         elloray
-  #stackexchange:  
-  linkedin:       
-  instagram:      
-  #flickr:         
-  #tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  #google_plus:    +yourid
-
-# Background image to be tiled on all pages
-background: 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
-future:      true
+# Build settings
+markdown: redcarpet
 highlighter: pygments
-markdown:    kramdown
 gems:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
+  - jemoji
+  
+# Site settings
+title: "Mediator"
+description: > # this means to ignore newlines until "email:"
+   A Jekyll theme - Medium inspired
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+email: a-mail@mail.mail
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-# Amount of post to show on home page
-paginate: 5
+name: 'Dirk Fabisch'
+author: 'Dirk Fabisch'
+author_image: "/assets/images/author.jpg"
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+paginate:	5
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@dirkfabisch'
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-destination: /User/Ray/Desktop/elliott.ray.io/
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/dirkfabisch
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/dirkfabisch
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
