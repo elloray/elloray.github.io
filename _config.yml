@@ -14,13 +14,13 @@ logo: "/assets/images/logo.jpg"
 # blog cover
 cover: "/assets/images/cover.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Elliott Ray'
+author: 'Elliott Ray'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://www.elloray.com" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@dirkfabisch'
