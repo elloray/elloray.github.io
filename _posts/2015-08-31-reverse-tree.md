@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "用mapreduce实现倒排索引"
 date:   2015-09-01 02:23:25
 categories: code
 tags: mapreduce
