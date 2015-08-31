@@ -1,8 +1,8 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-gems:
-  - jemoji
+gems: 
+ - jemoji
   
 # Site settings
 title: "Mediator"
