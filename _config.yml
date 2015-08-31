@@ -1,7 +1,7 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-gems: 
+gems:
   - jemoji
   
 # Site settings
@@ -45,9 +45,9 @@ baseurl: ""
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-  - icon: github
-    url: https://github.com/elloray
-    desc: Fork me on github
+  - icon:	github
+    url:	https://github.com/elloray
+    desc:	Fork me on github
     share_url:
     share_title:
     share_link:
