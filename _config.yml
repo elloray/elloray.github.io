@@ -5,7 +5,7 @@ gems:
   - jemoji
   
 # Site settings
-title: "Lights of Code"
+title: "Lab:-Do(Something),Get(Fun)."
 description: > # Ray's Blog
 
 email: elliott.ray@qq.com
@@ -14,8 +14,8 @@ logo: "/assets/images/logo.jpg"
 # blog cover
 cover: "/assets/images/cover.jpg"
 
-name: 'Elliott Ray'
-author: 'Elliott Ray'
+name: 'Ray'
+author: 'Ray'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
