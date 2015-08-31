@@ -5,9 +5,8 @@ gems:
   - jemoji
   
 # Site settings
-title: "Mediator"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+title: "Lights of Code"
+description: > # Ray's Blog
 
 email: a-mail@mail.mail
 #blog logo
