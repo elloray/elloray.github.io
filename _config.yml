@@ -15,8 +15,8 @@ logo: "/assets/images/logo.jpg"
 # blog cover
 cover: "/assets/images/cover.jpg"
 
-name: 'Elliott Ray'
-author: 'Elliott Ray'
+name: "Elliott Ray"
+author: "Elliott Ray"
 author_image: "/assets/images/author.jpg"
 
 paginate:    5
