@@ -65,6 +65,7 @@ private String second;
 first用来分区，second用来排序，在项目中将指标名放在first，指标值放在second
 
 然后重写shuffle阶段的class
+
 partition类:
 {% highlight java %}
 public class FirstPartitioner extends Partitioner<KVPair,IntWritable>{
